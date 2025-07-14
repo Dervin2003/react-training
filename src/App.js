@@ -1,9 +1,23 @@
 // import logo from './logo.svg';
 import './App.css';
+import Head from './Head';
 import MyComponent from './MyComponent';
-import ClassComponent from './ClassComponent';
+import Footer from './Footer';
+import LogIn from './LogIn';
+import LogOut from './LogOut';
+
 
 // const name="Java Script";
+
+function Check(){
+  let isLoggedin=false;
+  return(
+    <div>
+      {isLoggedin?<LogIn/>:<LogOut/> }
+    </div>
+  )
+  
+}
 
 function App() {
   return (
@@ -29,8 +43,14 @@ function App() {
     //   <classComponent/>
     // </div>
     <>
+      
+      <Head/>
+
       <MyComponent/>
-      <ClassComponent/>
+
+      <Check/>
+
+      <Footer/>
     </>
     
   );
