@@ -1,7 +1,7 @@
 function LogIn(){
     return(
         <>
-            <h1>Logged In</h1>
+            <h1>You are Logged In</h1>
             <button>Log out</button>
         </>
     )

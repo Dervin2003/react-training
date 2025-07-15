@@ -3,7 +3,7 @@ import './FootStyle.css'
 function Footer(){
     return(
         <div>
-            <p>By copyright 2015</p>
+            <p>By copyright &copy;2015</p>
         </div>
     )
 }

@@ -4,7 +4,7 @@ class LogOut extends Component{
     render(){
         return(
             <>
-                <h1>Logged Out</h1>
+                <h1>You are Logged Out</h1>
                 <button>Log in</button>
             </>
         )

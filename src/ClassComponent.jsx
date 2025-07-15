@@ -3,7 +3,11 @@ import { Component } from "react";
 class ClassComponent extends Component{
     render(){
         return(
-            <h1>Class Component</h1>
+            <div>
+                <h1>Class Component created by {this.props.name}</h1>
+                <p>My age is {this.props.age}</p>
+            </div>
+
         )
     }
 }

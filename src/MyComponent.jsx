@@ -10,7 +10,7 @@ function MyComponent(){
         <div>
             <h1>Functional Component</h1>
             <MyBtn/>
-            <ClassComponent/>
+            <ClassComponent name="Dervin" age={22}/>
         </div>
     )
 }

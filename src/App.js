@@ -5,12 +5,14 @@ import MyComponent from './MyComponent';
 import Footer from './Footer';
 import LogIn from './LogIn';
 import LogOut from './LogOut';
+import TestComponent from './TestComponent';
+import StateTest from './StateTest';
 
 
 // const name="Java Script";
 
 function Check(){
-  let isLoggedin=false;
+  let isLoggedin=true;
   return(
     <div>
       {isLoggedin?<LogIn/>:<LogOut/> }
@@ -47,6 +49,10 @@ function App() {
       <Head/>
 
       <MyComponent/>
+
+      <TestComponent/>
+
+      <StateTest/>
 
       <Check/>
 
