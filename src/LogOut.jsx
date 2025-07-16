@@ -5,7 +5,7 @@ class LogOut extends Component{
         return(
             <>
                 <h1>You are Logged Out</h1>
-                <button>Log in</button>
+                
             </>
         )
     }

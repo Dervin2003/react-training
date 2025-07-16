@@ -1,25 +1,27 @@
 // import logo from './logo.svg';
 import './App.css';
-import Head from './Head';
-import MyComponent from './MyComponent';
-import Footer from './Footer';
-import LogIn from './LogIn';
-import LogOut from './LogOut';
-import TestComponent from './TestComponent';
-import StateTest from './StateTest';
+// import Head from './Head';
+// import MyComponent from './MyComponent';
+// import Footer from './Footer';
+// import LogIn from './LogIn';
+// import LogOut from './LogOut';
+// import TestComponent from './TestComponent';
+// import StateTest from './StateTest';
+import Events from './Events';
+import Check from './Check';
 
 
 // const name="Java Script";
 
-function Check(){
-  let isLoggedin=true;
-  return(
-    <div>
-      {isLoggedin?<LogIn/>:<LogOut/> }
-    </div>
-  )
+// function Check(){
+//   let isLoggedin=true;
+//   return(
+//     <div>
+//       {isLoggedin?<LogIn/>:<LogOut/> }
+//     </div>
+//   )
   
-}
+// }
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
     // </div>
     <>
       
-      <Head/>
+      {/* <Head/>
 
       <MyComponent/>
 
@@ -56,7 +58,11 @@ function App() {
 
       <Check/>
 
-      <Footer/>
+      <Footer/> */}
+
+      <Check/>
+      
+      <Events/>
     </>
     
   );
