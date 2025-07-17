@@ -7,8 +7,9 @@ import './App.css';
 // import LogOut from './LogOut';
 // import TestComponent from './TestComponent';
 // import StateTest from './StateTest';
-import Events from './Events';
-import Check from './Check';
+// import Events from './Events';
+// import Check from './Check';
+import TestRoute from './TestRoute';
 
 
 // const name="Java Script";
@@ -60,9 +61,11 @@ function App() {
 
       <Footer/> */}
 
-      <Check/>
+      {/* <Check/>
       
-      <Events/>
+      <Events/> */}
+
+      <TestRoute/>
     </>
     
   );

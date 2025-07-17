@@ -57,5 +57,3 @@ function FormEvent(){
 }
 
 export default Events;
-
-
