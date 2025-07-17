@@ -10,6 +10,8 @@ import './App.css';
 // import Events from './Events';
 // import Check from './Check';
 import TestRoute from './TestRoute';
+import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
+import About from './About';
 
 
 // const name="Java Script";
@@ -65,7 +67,17 @@ function App() {
       
       <Events/> */}
 
-      <TestRoute/>
+      <BrowserRouter>
+        <nav>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+        </nav>
+
+        <Routes>
+            <Route path="/" element={<TestRoute/>}/>
+            <Route path="/about" element={<About/>}/>
+        </Routes>
+      </BrowserRouter> 
     </>
     
   );
