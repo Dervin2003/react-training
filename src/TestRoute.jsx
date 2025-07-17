@@ -1,7 +1,15 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function TestRoute() {
 
+    const navigate = useNavigate();
+
+    const goToAbout = () => {
+        navigate('/about'); 
+    }
+
+    
     const [formData,setFormData]=useState({
         name:'',
         email:'',
@@ -45,6 +53,8 @@ function TestRoute() {
                 </div>
                 <button type="submit">Submit</button>
             </form>
+
+            <button onClick={goToAbout}>navigate</button>
         </div>
     )
 }
