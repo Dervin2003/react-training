@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 // import Head from './Head';
 // import MyComponent from './MyComponent';
 // import Footer from './Footer';
@@ -9,9 +9,13 @@ import './App.css';
 // import StateTest from './StateTest';
 // import Events from './Events';
 // import Check from './Check';
-import TestRoute from './TestRoute';
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
-import About from './About';
+// import TestRoute from './TestRoute';
+// import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
+// import About from './About';
+// import DefferedValue from './DefferedValue';
+import EffectHook from './EffectHook';
+import UseRef from './UseRef';
+import TransitionHook from './TransitionHook';
 
 
 // const name="Java Script";
@@ -67,7 +71,7 @@ function App() {
       
       <Events/> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
@@ -77,7 +81,12 @@ function App() {
             <Route path="/" element={<TestRoute/>}/>
             <Route path="/about" element={<About/>}/>
         </Routes>
-      </BrowserRouter> 
+      </BrowserRouter>  */}
+
+      <TransitionHook/>
+      {/* <DefferedValue/> */}
+      {/* <EffectHook/> */}
+      {/* <UseRef/> */}
     </>
     
   );
