@@ -13,9 +13,12 @@
 // import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 // import About from './About';
 // import DefferedValue from './DefferedValue';
-import EffectHook from './EffectHook';
-import UseRef from './UseRef';
-import TransitionHook from './TransitionHook';
+// import EffectHook from './EffectHook';
+// import UseRef from './UseRef';
+// import TransitionHook from './TransitionHook';
+// import AntDesign from "./AntDesign";
+
+import ResponsiveDesign from "./ResponsiveDesign";
 
 
 // const name="Java Script";
@@ -83,10 +86,13 @@ function App() {
         </Routes>
       </BrowserRouter>  */}
 
-      <TransitionHook/>
+      {/* <TransitionHook/> */}
       {/* <DefferedValue/> */}
       {/* <EffectHook/> */}
       {/* <UseRef/> */}
+      {/* <AntDesign/> */}
+
+      <ResponsiveDesign/>
     </>
     
   );
